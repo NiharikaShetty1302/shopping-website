@@ -1,9 +1,9 @@
 // Product data
 const products = [
-  { id: 1, name: "T-Shirt", price: 499, image: "images/tshirt.jpg" },
-  { id: 2, name: "Hoodie", price: 899, image: "images/hoodie.jpg" },
-  { id: 3, name: "Jeans", price: 1199, image: "images/jeans.jpg" },
-  { id: 4, name: "Sneakers", price: 1599, image: "images/sneakers.jpg" }
+  { id: 1, name: "T-Shirt", price: 499, image: "https://via.placeholder.com/250x200?text=T-Shirt" },
+  { id: 2, name: "Hoodie", price: 899, image: "https://via.placeholder.com/250x200?text=Hoodie" },
+  { id: 3, name: "Jeans", price: 1199, image: "https://via.placeholder.com/250x200?text=Jeans" },
+  { id: 4, name: "Sneakers", price: 1599, image: "https://via.placeholder.com/250x200?text=Sneakers" }
 ];
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -100,4 +100,5 @@ function showCart() {
 }
 
 updateCartCount();
+
 
